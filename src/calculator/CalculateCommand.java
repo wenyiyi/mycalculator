@@ -19,9 +19,9 @@ public class CalculateCommand extends AbstractCommand {
     private Divider divider = new Divider();
     private Multiplier multiplier = new Multiplier();
     private Subtracter subtracter = new Subtracter();
-    // 返回栈，记录所做的每一步操作，用于撤回
+    // 撤回栈，记录所做的每一步操作，用于撤回
     private Stack<BigDecimal> unStack = new Stack<>();
-    // 重复栈，存储返回栈弹出的数据，由于重复
+    // 恢复栈，存储返回栈弹出的数据，用于恢复
     private Stack<BigDecimal> reStack = new Stack<>();
 
     /**
