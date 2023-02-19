@@ -11,6 +11,9 @@ public class CommandDTO {
 
     private BigDecimal num1;
 
+    /**
+     * 操作符
+     */
     private String symbol;
 
     private BigDecimal num2;
