@@ -4,7 +4,7 @@ AbstractCommand 是抽象类，定义三个抽象方法，CalculateCommand 类�
 
 加、减、乘、除运算分别定义在四个类里：Adder，Divider，Multiplier，Subtracter，便于扩展和灵活组装。
 
-优点：整体采用了命令模式，降低了系统的耦合度，也方便加入新命令。
+整体采用了命令模式，降低了系统的耦合度，也方便加入新命令。
 
 2 undo 和 redo 的实现原理
 
