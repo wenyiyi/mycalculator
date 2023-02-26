@@ -60,6 +60,7 @@ public class CalculateCommand extends AbstractCommand {
 
     /**
      * 执行计算，并进行栈的更新
+     * todo 可以基于策略模式进一步优化，但是会有点过度设计的感觉
      */
     public BigDecimal execute(CommandDTO commandDTO) {
         BigDecimal result = BigDecimal.ZERO;
